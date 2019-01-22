@@ -1,3 +1,4 @@
 def position_taken?(board, index)
-   board[index] == "    "
+   binding.pry
+   board[index] == "   " || board[index] == "X" || board[index] == "O"
 end
